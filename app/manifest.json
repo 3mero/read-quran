@@ -1,16 +1,48 @@
 {
-  "name": "إدارة الأجزاء والأحزاب",
-  "short_name": "QuranApp",
+  "name": "القرآن الكريم",
+  "short_name": "القرآن",
+  "description": "تطبيق القرآن الكريم - إدارة الأحزاب والأجزاء وتقسيم الصفحات",
   "start_url": "/",
+  "id": "/",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#1e1e2f",
   "theme_color": "#28293d",
   "icons": [
     {
-      "src": "quran.png",
+      "src": "/quran.png",
       "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/quran.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/quran.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "shortcuts": [
+    {
+      "name": "الأحزاب والأجزاء",
+      "url": "/ahzab",
+      "description": "إدارة الأحزاب والأجزاء"
+    },
+    {
+      "name": "صفحات القرآن",
+      "url": "/pages",
+      "description": "تصفح صفحات القرآن"
+    }
+  ],
+  "categories": ["books", "education", "utilities"]
 }
 
