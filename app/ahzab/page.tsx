@@ -32,7 +32,6 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger, Dialog
 import { Textarea } from "@/components/ui/textarea"
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 import { Progress } from "@/components/ui/progress"
-import { InstallAppBanner } from "@/components/install-app-banner"
 import { ItemDetailsDialog } from "@/components/item-details-dialog"
 
 export default function AhzabPage() {
@@ -998,7 +997,6 @@ ${currentMode === "hizb" ? "الأحزاب" : "الأجزاء"} المتبقية
       </Card>
 
       <ScrollToTopButton />
-      <InstallAppBanner />
     </div>
   )
 }
